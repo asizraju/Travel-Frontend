@@ -1,0 +1,104 @@
+/* Addfunct.css */
+
+/* Main container styling */
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Grid for small images */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+/* Container for small images */
+.small-image-container {
+  position: relative;
+  width: 100%;
+  padding-top: 75%; /* Aspect Ratio */
+}
+
+.small-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Grid for large image and form */
+.details-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.large-image {
+  width: 100%;
+  max-width: 100%; /* Ensures responsiveness */
+  height: auto;
+  object-fit: cover;
+}
+
+/* Form section styling */
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Input group styling */
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.date-input,
+.text-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.cart-button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cart-button:hover {
+  background-color: darkgreen;
+}
+
+/* Card styling */
+.card-amount {
+  font-weight: bold;
+  color: red; /* Adjust color as needed */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-container {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr; /* Single column for smaller screens */
+  }
+
+  .details-section {
+    flex-direction: column;
+  }
+}

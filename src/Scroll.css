@@ -1,0 +1,20 @@
+.scroll-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-grid {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+}
+
+/* .card-grid::-webkit-scrollbar {
+  display: none; 
+} */
+
+.scroll-button {
+  margin: 0 10px;
+}

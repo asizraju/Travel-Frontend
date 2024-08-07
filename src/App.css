@@ -1,0 +1,290 @@
+.body{
+    width: 100vw;
+    height: 100vh;
+}
+.Carosalbutton .Dot{
+    background-color: black;
+}
+.Car-1 img{
+    width: 100%;
+    height: 450px;
+}
+
+.Foooter-main{
+    background-color: rgb(32, 30, 27); 
+  }
+  
+  /* .Whybook .WhybookConent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    cursor: pointer;
+  }
+  .Whybook .WhybookConent h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Whybook .WhybookConent h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Whybook .WhybookConent p{
+    
+    justify-content: center;
+  } */
+
+  .Whybook {
+    padding: 2em;
+    background-color: #f8f9fa;
+  }
+  
+  .head {
+    margin-bottom: 2em;
+  }
+  
+  .WhybookConent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .WhybookConent .col-lg-3, .WhybookConent .col-sm-6 {
+    /* flex: 1 1 21%; */
+    margin: 1em 0;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+  }
+  
+  .WhybookConent .col-lg-3:hover, .WhybookConent .col-sm-6:hover {
+    /* transform: translateY(-10px); */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #e9ecef;
+  }
+  
+  .WhybookConent h1 {
+    font-size: 3em;
+    color: #007BFF;
+    transition: color 0.3s;
+  }
+  
+  .WhybookConent h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    transition: color 0.3s;
+  }
+  
+  .WhybookConent p {
+    color: #6c757d;
+    transition: color 0.3s;
+  }
+  
+  .WhybookConent .col-lg-3:hover h1, .WhybookConent .col-sm-6:hover h1 {
+    color: #0056b3;
+  }
+  
+  /* .WhybookConent .col-lg-3:hover h3, .WhybookConent .col-sm-6:hover h3 {
+    color: #0056b3;
+  } */
+  
+  .WhybookConent .col-lg-3:hover p, .WhybookConent .col-sm-6:hover p {
+    color: #343a40;
+  }
+  
+  @media (max-width: 992px) {
+    .WhybookConent .col-lg-3, .WhybookConent .col-sm-6 {
+      flex: 1 1 45%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .WhybookConent .col-lg-3, .WhybookConent .col-sm-6 {
+      flex: 1 1 100%;
+    }
+  }
+  
+
+ /* ListTour */
+
+/* App.css */
+
+/* General styles for List-Tour container */
+.List-Tour {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Styles for headings */
+.List-Tour h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* Styles for the list of cities and attractions */
+.List-Tour2, .List-Tour div:nth-of-type(2) {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 10px; */
+  font-size: 16px;
+}
+
+/* Add styles for individual list items */
+.List-Tour2 p, .List-Tour div:nth-of-type(2) p {
+  margin: 5px 0;
+  color: #0066cc;
+  cursor: pointer;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .List-Tour2, .List-Tour div:nth-of-type(2) {
+    font-size: 14px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .List-Tour2, .List-Tour div:nth-of-type(2) {
+    font-size: 12px;
+  }
+}
+
+  
+
+/* footer */
+
+
+.Footer-main {
+  background-color: #222; 
+  padding: 20px 0;
+  color: white;
+}
+
+/* navebar */
+
+
+.d-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-fixed-width {
+  width: 200px; /* Fixed width for cards */
+}
+
+.card-hover:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+@media (max-width: 767px) {
+  .card-fixed-width {
+    width: 100%; /* Full width on smaller screens */
+  }
+}
+
+
+
+
+
+
+
+.custom-navbar {
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-left {
+  margin-right: auto; /* Pushes the head tag to the left */
+}
+
+.navbar-nav {
+  flex-direction: row; /* Aligns nav items horizontally */
+}
+
+.nav-link {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link svg {
+  margin-right: 0.5rem; /* Space between icon and text */
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-toggler-icon {
+  background-image: none;
+  color: #000;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+
+
+
+
+/* Navbar.css */
+
+/* Style for the custom navbar */
+.custom-navbar {
+  background-color: rgb(210, 242, 210); /* Green background color for the navbar */
+}
+
+/* Style for the navbar links */
+.nav-link {
+  color: rgb(18, 14, 14); /* White text color for the navbar links */
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Style for the navbar links on hover */
+.nav-link:hover {
+  color: #0e0c0c; /* Change color on hover */
+  text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+/* Style for the profile button */
+.custom-navbar .btn-light {
+  color: rgb(8, 6, 6); /* White text color for the button */
+  border: none; /* Remove border if needed */
+  border-radius: 25px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* Style for the profile button on hover */
+.custom-navbar .btn-light:hover {
+  background-color: #110e0e; /* Change background color on hover */
+  color: rgb(255, 255, 255); /* Change text color on hover */
+}
+
+
+
+
+
+
+
+
+
+  

@@ -1,0 +1,212 @@
+/* 
+.Login-Page{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(177, 151, 151);
+    
+}
+.Login-im h1{
+    color: rgb(62, 62, 248);
+    font-size: 70px;
+    
+}
+.Login-card{
+    padding: 30px;
+    justify-content: space-evenly;
+    background-color: rgb(235, 235, 235);
+    
+}
+.Login-card input{
+    outline: none;
+    padding:4px;
+    outline: none;
+    
+}
+input:focus{
+    border-color: rgb(72, 105, 237);
+}
+.Login-butt button{
+    width: 100%;
+    background-color: blue;
+    color: aliceblue;
+    font-weight: 700;
+    padding: 4px;
+    border-radius: 10px;   
+}
+.Login-accbutt button{
+    background-color: rgb(108, 224, 108);
+    border-radius: 5px;
+    width: 100%;
+    color:white;
+    font-weight: 800;
+}
+
+
+
+ */
+
+
+ /* Login.css */
+
+.Login-Page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .Login-im h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .Login-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .Login-mail, .Login-pass {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .Login-mail label, .Login-pass label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .Login-mail input, .Login-pass input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .Login-mail span, .Login-pass span {
+    color: red;
+    font-size: 0.875rem;
+  }
+  
+  .Login-butt {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .Login-butt button {
+    width: 100%;
+    padding: 10px;
+    background-color: #374350;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .Login-butt button:hover {
+    background-color: #35404b;
+  }
+  
+  .Login-butt a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: #2d343b;
+  }
+  
+  .Login-accbutt button {
+    width: 100%;
+    padding: 10px;
+    background-color: #425947;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .Login-accbutt button:hover {
+    background-color: #334737;
+  }
+  
+  .Login-accbutt a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 600px) {
+    .Login-card {
+      padding: 15px;
+    }
+  
+    .Login-im h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
+
+
+
+
+
+/* sign css code */
+
+.sign {
+    font-weight: 50px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .sign h3 {
+    text-align: center;
+  }
+  
+  .sign .username,
+  .sign .email,
+  .sign .contact,
+  .sign .password,
+  .sign .confirmpassword {
+    margin-bottom: 1em;
+  }
+  
+  .sign label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  .sign input[type="text"],
+  .sign input[type="number"],
+  .sign input[type="password"] {
+    width: 100%;
+    padding: 0.5em;
+    box-sizing: border-box;
+  }
+  
+  .sign .submit {
+    text-align: center;
+  }
+  
+  .sign .submit button {
+    padding: 0.5em 1em;
+  }
+  
+  .sign .submit a {
+    display: inline-block;
+    margin-top: 1em;
+  }
+  

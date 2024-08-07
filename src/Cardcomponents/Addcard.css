@@ -1,0 +1,43 @@
+.card-custom {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 1px solid #ddd; /* Add a border to the card */
+}
+
+.card-custom:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.heart-button {
+  background-color: white;
+  color: red;
+  border: none;
+  border-radius: 50%;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.heart-button:hover {
+  background-color: red;
+  color: white;
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-img {
+  object-fit: cover; /* Ensure the image covers the card area */
+  height: 180px; /* Set a fixed height for consistency */
+}
+
+.card-amount {
+  color: #e74c3c; /* Change the amount tag color to a desired color */
+}
